@@ -1,0 +1,64 @@
+*{
+    
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    max-width: 800px;
+    margin: 0 auto;
+}
+header{
+    min-height: 100px;
+    background-color: gray;
+    display: flex;
+    align-items: center;
+    border-bottom: 2px solid rgb(106, 224, 106);
+}
+
+header h1{
+    padding-left: 20px;
+}
+
+aside{
+    display: flex;
+
+}
+
+aside input[type="text"]{
+    border: 1px solid rgb(187, 177, 177);
+    height: 20px;
+    width: 100%;
+    margin: 20px;
+    border-radius: 3px;
+    padding: 10px;
+}
+
+main{
+    display: flex;
+}
+
+main section{
+    margin-left: 15px;
+}
+
+details ul{
+    list-style: none;
+}
+
+figure{
+    position: relative;
+}
+
+figure figcaption{
+    position: absolute;
+    bottom: 5px;
+    height: 60px;
+    background: rgb(11 11 11 / 44%);
+}
+
+figure figcaption p{
+    color: #fff;
+    padding: 10px;
+}
